@@ -148,9 +148,18 @@ img {
 
 /* Hero Section  */
 .hero-section {
+  max-width: 1440px;
+  background-size: cover;
   background-color: #2e2f42;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
 }
 .hero-title {
   margin-left: auto;
@@ -218,6 +227,17 @@ button {
 
 .features-item {
   width: calc((100% - 72px) / 4);
+}
+
+.features-item-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
 }
 
 .features-subtitle {
